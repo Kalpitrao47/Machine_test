@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import GradientAbout from './Components/GradientAbout';
 import SocialLogo from './Components/SocialLogo';
 import TopProfile from './Components/TopProfile';
+import AboutUs from './Components/AboutUs';
+import Plan from './Components/Plan';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <GradientAbout/>
       <SocialLogo/>
       <TopProfile/>
+      <AboutUs/>
     </div>
   );
 }
