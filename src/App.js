@@ -6,6 +6,8 @@ import SocialLogo from './Components/SocialLogo';
 import TopProfile from './Components/TopProfile';
 import AboutUs from './Components/AboutUs';
 import Plan from './Components/Plan';
+import ContactForm from './Components/ContactForm';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
       <TopProfile/>
       <AboutUs/>
       <Plan/>
-      
+      <ContactForm/>
+      <Footer/>
     </div>
   );
 }
