@@ -8,6 +8,7 @@ const ContactForm = () => {
     phoneNumber: '',
     message: '',
   });
+  console.log("formData",formData);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,13 +20,12 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your form submission logic here
     console.log('Form submitted:', formData);
   };
 
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-      <h1 className='font-semibold text-4xl'>Contact Us</h1>
+      <h1 className='font-semibold text-4xl mb-10'>Contact Us</h1>
       <form className="w-96 p-4 border border-gray-300 rounded" onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
