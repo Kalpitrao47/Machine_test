@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import GradientAbout from './Components/GradientAbout';
 import SocialLogo from './Components/SocialLogo';
+import TopProfile from './Components/TopProfile';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <GradientAbout/>
       <SocialLogo/>
+      <TopProfile/>
     </div>
   );
 }
