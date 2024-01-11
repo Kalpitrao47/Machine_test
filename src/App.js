@@ -15,6 +15,8 @@ function App() {
       <SocialLogo/>
       <TopProfile/>
       <AboutUs/>
+      <Plan/>
+      
     </div>
   );
 }
